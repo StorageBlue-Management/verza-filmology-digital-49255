@@ -138,7 +138,7 @@ export const Footer = () => {
 
           <div className="pt-6 md:pt-8 border-t border-border/50 text-center">
             <p className="text-xs text-muted-foreground mb-2">
-              &copy; {new Date().getFullYear()} Filmology Labs. All rights reserved.
+              &copy; {new Date().getFullYear()} Filmology Labs. All rights reserved. [TEST DEPLOY]
             </p>
             <p className="text-xs text-muted-foreground flex items-center justify-center gap-1">
               Made with Love <Heart className="w-3 h-3 fill-red-500 text-red-500" /> in Hollywood CA
