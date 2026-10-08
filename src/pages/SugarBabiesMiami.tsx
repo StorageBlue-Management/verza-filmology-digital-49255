@@ -26,6 +26,7 @@ const features = [
 ];
 
 const SugarBabiesMiami = () => {
+  useNoIndex();
   useMeta({
     title: "Sugar Babies Miami — A VERZA TV Original Series",
     description:

@@ -43,6 +43,7 @@ const WhatIsAMicroDrama = () => {
     },
   ]);
 
+  useNoIndex();
   useMeta({
     title: "What Is a Micro Drama? Guide to Vertical Entertainment | Verza TV",
     description:
