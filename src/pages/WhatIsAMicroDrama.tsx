@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useMeta } from "@/hooks/useMeta";
+import { useNoIndex } from "@/hooks/useNoIndex";
 import { useArticleSchema } from "@/hooks/useArticleSchema";
 import { useFAQSchema } from "@/hooks/useFAQSchema";
 
@@ -43,6 +44,7 @@ const WhatIsAMicroDrama = () => {
     },
   ]);
 
+  useNoIndex();
   useMeta({
     title: "What Is a Micro Drama? Guide to Vertical Entertainment | Verza TV",
     description:
