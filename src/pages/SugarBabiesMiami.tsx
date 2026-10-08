@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useMeta } from "@/hooks/useMeta";
+import { useNoIndex } from "@/hooks/useNoIndex";
 import sugarBabiesMiami from "@/assets/posters/sugar-babies-miami.jpeg.asset.json";
 import verzaLogo from "@/assets/verza-logo.png";
 
